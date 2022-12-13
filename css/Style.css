@@ -1,3 +1,27 @@
+
+.services{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.left-title h1{
+    color: teal;
+
+    padding:0 7px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    /*border-bottom: 2px solid teal;*/
+    border-right: 2px solid teal;
+    border-left: 2px solid teal;
+}
+.services-right{
+    width: 40%;
+}
+.services-right p{
+    color: crimson;
+    font-size: 1.3rem;
+    line-height: 26px;
+ 
 *{
     padding: 0;
     margin: 0;
@@ -9,4 +33,5 @@ a{
 .container{
     width: 1140px;
     margin: 0 auto;
+
 }
